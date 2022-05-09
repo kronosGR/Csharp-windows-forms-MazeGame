@@ -64,14 +64,14 @@
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
+            this.finishLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.label36);
+            this.panel1.Controls.Add(this.finishLabel);
             this.panel1.Controls.Add(this.label35);
             this.panel1.Controls.Add(this.label34);
             this.panel1.Controls.Add(this.label33);
@@ -392,14 +392,15 @@
             this.label35.Size = new System.Drawing.Size(100, 23);
             this.label35.TabIndex = 34;
             // 
-            // label36
+            // finishLabel
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(557, 553);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(34, 13);
-            this.label36.TabIndex = 35;
-            this.label36.Text = "Finish";
+            this.finishLabel.AutoSize = true;
+            this.finishLabel.Location = new System.Drawing.Point(557, 553);
+            this.finishLabel.Name = "finishLabel";
+            this.finishLabel.Size = new System.Drawing.Size(34, 13);
+            this.finishLabel.TabIndex = 35;
+            this.finishLabel.Text = "Finish";
+            this.finishLabel.MouseEnter += new System.EventHandler(this.finishLabel_MouseEnter);
             // 
             // Form1
             // 
@@ -455,7 +456,7 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label finishLabel;
     }
 }
 
